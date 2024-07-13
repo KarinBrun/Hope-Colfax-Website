@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(233, 245, 248);
+}
+
+.masthead {
+    background-color: rgba(160, 150, 150, 0.9);
+    padding: 0.1rem 0;
+}
+
+.primary-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+  
+.nav-links li:first-child {
+    margin-left: 0;
+}
+
+.nav-links li:last-child {
+    margin-right: 5px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(0, 53, 128);
+    font-size: 1.25rem;
+}
+
+.nav-link:hover {
+    color: rgb(73, 0, 106);
+}
+
+.nav-link:focus {
+    color: rgb(73, 0, 106);
+}
+
+.nav-link:visited {
+    color: rgb(136, 113, 147);
+}
+
+.sr-only {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(100%);
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: 0;
+    margin: -1px;
+    white-space: nowrap;
+}
+
+.logoHead {
+    height: 75px;
+    width: 75px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footerLine {
+    border-bottom: 1px solid black;
+    transform: translate(0%, -50%);
+}
+
+.socialIcons {
+    text-align: center;
+}
+
+.churchBuilding {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25%;
+    width: 100%; 
+}
+
+.center {
+    text-align: center;
+}
+
+.mapWrapper {
+    position: relative;
+    padding-bottom: 20%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.mapWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.aboutChurch {
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+
+.aboutPastor {
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+
+.aboutAOG {
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+
+.errorText {
+    color: red;
+}
