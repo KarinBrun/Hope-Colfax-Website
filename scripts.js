@@ -1,3 +1,9 @@
+(function(){
+    emailjs.init({
+        publicKey: '1mmCs7XGffPMoDo1m',
+    });
+})();
+
 function submitPrayer(){
     //runs validation and submits form contents to church email
     let namePrayerValid = namePrayerValidation();
@@ -5,7 +11,7 @@ function submitPrayer(){
     let messagePrayerValid = messagePrayerValidation();
     if(namePrayerValid && subjectPrayerValid && messagePrayerValid){
         let form = document.querySelector("#prayerForm");
-        emailjs.sendForm('service_knxnxbg', 'prayer_form', form).then(() =>{
+        emailjs.sendForm('service_oiyymrv', 'prayer_form', form).then(() =>{
             console.log('SUCCESS!');
             document.querySelector("#submitPrayerClicked").innerHTML = "Thank you for your prayer request!";
             document.querySelector("#prayerForm").reset();
@@ -82,7 +88,7 @@ function submitContact(){
     let messageValid = messageValidation();
     if(nameValid && emailValid && subjectValid && messageValid){
         let form = document.querySelector("#contactForm");
-        emailjs.sendForm('service_knxnxbg', 'contact_form', form).then(() =>{
+        emailjs.sendForm('service_595nd9w', 'contact_form', form).then(() =>{
             console.log('SUCCESS!');
             document.querySelector("#submitClicked").innerHTML = "Thank you for contacting us!";
             document.querySelector("#contactForm").reset();

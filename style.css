@@ -1,55 +1,60 @@
 body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(233, 245, 248);
+    background-color: #001A23;
+    color: #001A23;
 }
 
-.masthead {
-    background-color: rgba(160, 150, 150, 0.9);
-    padding: 0.1rem 0;
+.slogan {
+    font-family: 'Brush Script MT', cursive;
 }
 
-.primary-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.about-page img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
-.nav-links {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.container-fluid {
+    background-color: white;
 }
 
-.nav-links li {
-    margin-left: 25px;
-}
-  
-.nav-links li:first-child {
-    margin-left: 0;
+.navbar {
+    background-color: #001A23;
 }
 
-.nav-links li:last-child {
-    margin-right: 5px;
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #F9EBE0;
+    font-size: 23px;
+    background-color: #001A23;
 }
 
-.nav-link {
-    text-decoration: none;
-    color: rgb(0, 53, 128);
-    font-size: 1.25rem;
+.navbar-brand {
+    background-color: #001A23;
 }
 
-.nav-link:hover {
-    color: rgb(73, 0, 106);
+.collapse {
+    background-color: #001A23;
 }
 
-.nav-link:focus {
-    color: rgb(73, 0, 106);
+.nav-container {
+    background-color: #001A23;
 }
 
-.nav-link:visited {
-    color: rgb(136, 113, 147);
+.navbar-expand-lg .navbar-nav .nav-link:visited {
+    color: #F9EBE0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #208AAE;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:focus {
+    color: #208AAE;
+}
+
+.navbar-toggler {
+    background-color: #F9EBE0;
 }
 
 .sr-only {
@@ -66,12 +71,14 @@ body {
 }
 
 .logoHead {
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 200px;
 }
 
 .footer {
     text-align: center;
+    background-color: #001A23;
+    color: #F9EBE0;
 }
 
 .footerLine {
@@ -81,10 +88,12 @@ body {
 
 .socialIcons {
     text-align: center;
+    background-color: #001A23;
 }
 
 .churchBuilding {
     display: block;
+    padding-top: 5px;
     margin-left: auto;
     margin-right: auto;
     height: 25%;
@@ -112,22 +121,27 @@ body {
 
 .aboutChurch {
     border-radius: 8px;
-    height: 100%;
-    width: 100%;
 }
 
 .aboutPastor {
     border-radius: 8px;
-    height: 100%;
-    width: 100%;
 }
 
 .aboutAOG {
     border-radius: 8px;
-    height: 100%;
-    width: 100%;
 }
 
 .errorText {
     color: red;
+}
+
+.form-control {
+    border-color: #001A23;
+}
+
+.logoAOG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
 }
