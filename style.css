@@ -100,6 +100,15 @@ body {
     width: 100%; 
 }
 
+.worshipCarousel {
+    display: block;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15%;
+    width: 100%; 
+}
+
 .center {
     text-align: center;
 }
@@ -144,4 +153,66 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 10%;
+}
+
+.vbs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.socialSpace {
+    text-decoration: none;
+}
+
+.grayboxcontainer  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.graybox  {
+    display: flex;
+    flex: 1 0 25%;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    margin:10px;
+}
+
+.graybox img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+h4 {
+    font-size: 24px;
+    color: #208AAE;
+    font-weight: bold;
+}
+
+.drop-cap::first-letter {
+    font-size: 22px;
+}
+
+.devoLine {
+    border-bottom: 1px solid black;
+    transform: translate(0%, -50%);
+}
+
+.prayWithUs {
+    font-size: 21px;
+    color: #208AAE;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.devoBox {
+    border: 2px solid #001A23;
+    padding: 4px;
 }

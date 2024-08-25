@@ -179,3 +179,43 @@ function resetErrors(){
     document.querySelector("#messageError").innerHTML = "";
     document.querySelector("#submitClicked").innerHTML = "";
 }
+
+
+function hoverColorFB(){
+    //changes the icon image color darker when moused over
+    const image = document.getElementById('fbImg');
+    if(image.classList.contains("fbImgClass")){
+        image.src = 'images/facebookIconOffWhiteHover.png';
+        image.classList.remove("fbImgClass");
+    }
+    else {
+        image.src = 'images/facebookIconOffWhite.png';
+        image.classList.add("fbImgClass");
+    }
+}
+
+function hoverColorYT(){
+    //changes the icon image color darker when moused over
+    const image = document.getElementById('ytImg');
+    if(image.classList.contains("ytImgClass")){
+        image.src = 'images/youtubeIconOffWhiteHover.png';
+        image.classList.remove("ytImgClass");
+    }
+    else {
+        image.src = 'images/youtubeIconOffWhite.png';
+        image.classList.add("ytImgClass");
+    }
+}
+
+function hoverColorIG(){
+    //changes the icon image color darker when moused over
+    const image = document.getElementById('igImg');
+    if(image.classList.contains("igImgClass")){
+        image.src = 'images/instagramIconOffWhiteHover.png';
+        image.classList.remove("igImgClass");
+    }
+    else {
+        image.src = 'images/instagramIconOffWhite.png';
+        image.classList.add("igImgClass");
+    }
+}

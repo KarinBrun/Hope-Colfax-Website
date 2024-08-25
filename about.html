@@ -17,6 +17,7 @@
     <link rel="icon" type="image/x-icon" href="images/hopeFaviconDarkIcon.ico">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 	<script type="text/javascript" src="scripts.js"></script>
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -33,6 +34,9 @@
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     <a class="nav-link" href="about.html">About</a>
+                    <!--<a class="nav-link" href="devotionals.html">Devotionals</a>-->
+                    <a class="nav-link" href="calendar.html">Calendar</a>
+                    <!--<a class="nav-link" href="gallery.html">Gallery</a>-->
                     <!--<a class="nav-link" href="livestream.html">Livestream</a>-->
                     <!--<a class="nav-link" href="donate.html">Donate</a>-->
                     <a class="nav-link" href="prayers.html">Prayer Requests</a>
@@ -51,10 +55,10 @@
                 </div>
                 <div class="col-md-6 text-center">
                     <h2>About our Church</h2>
-                        <p>Hope Assembly of God was founded over seventy years ago in Colfax, Iowa. We are a part of the Assemblies of God General Council worldwide fellowship of churches. We are an evangelical, Pentecostal fellowship with a strong missions focus both home and abroad reaching out to people all over the world with the good news of Jesus Christ.</p>
-                        <p>We do several community outreaches a year taking part in the Jasper County Fair parade, Halloween walk, Trunk or Treat/Candy Carnival, Vacation Bible School, Bikes and Burger day, and more.</p>
+                        <p>Hope Assembly of God was founded over seventy years ago in Colfax, Iowa. We are a part of the Assemblies of God General Council worldwide fellowship of churches. We are an evangelical, Pentecostal fellowship with a strong missions focus both at home and abroad reaching out to people all over the world with the good news of Jesus Christ.</p>
+                        <p>We do several community outreaches a year. We take part in the Jasper County Fair parade, Halloween Walk, Trunk or Treat/Candy Carnival, Vacation Bible School, Bikes and Burger day, and more.</p>
                         <p>We have members on the Colfax Food Pantry Board and other benevolence ministries are available.</p>
-                        <p>We feature live music in a contemporary worship service, and Bible based preaching and teaching for all ages on Sunday mornings as well as Wednesday nights. Part of our services we offer are basic pre and post marital counseling and family counseling as well as other help resources.</p>
+                        <p>We feature live music in a contemporary worship service, as well as bible-based preaching and teaching for all ages on Sunday mornings and Wednesday nights. Part of the services we offer are basic pre and post marital counseling and family counseling as well as other helpful resources.</p>
                 </div>
             </div>
         </div>
@@ -70,7 +74,7 @@
                 </div>
                 <div class="col-md-6 text-center">
                     <h2>About our Pastor</h2>
-                    <p>Rev. Paul Avery has been in active ministry for 40 years. Credentialed in the North Texas District in 1989, Pastor Paul has been in pastoral ministry 35 years in a variety of positions working in Children's ministry, Youth ministry, Evangelical outreach, visitation. Education, Associate and Lead Pastor positions. Paul is currently on the Jasper County Sheriff's Department D.A.C.S. Critical Incident Stress Management team working with first responders' debriefings. His wife, Teresa works with the Women's Bible study, Children's Church and nursery and is one of the main team event organizers for community outreach. Married in 1985, they have worked together in the Lord's service ever since.</p>
+                    <p>Rev. Paul Avery has been in active ministry for about 40 years. Credentialed in the North Texas District in 1989, Pastor Paul has been in pastoral ministry for 35 years in a variety of positions. He has worked in Children's ministry, Youth ministry, Evangelical outreach, visitation, education, as well as Associate and Lead Pastor positions. Paul is currently on the Jasper County Sheriff's Department D.A.C.S. Critical Incident Stress Management team working with first responders' debriefings. His wife, Teresa, works with the Women's Bible study, Children's Church, nursery, and is one of the main team event organizers for community outreach. Married in 1985, they have worked together in the Lord's service ever since.</p>
                 </div>
             </div>
         </div>
@@ -96,10 +100,22 @@
         <br>
     </div>
 
-        <footer>
-            <div class="footerLine"></div>
-            <div class="socialIcons"><a href="https://www.facebook.com/groups/552069538189681/"><img src="images/facebookIcon.png" alt="Facebook Link" height="25px" width="25px"></a> <a href="https://www.instagram.com/churchishappening/"><img src="images/instagramIcon.png" alt="Instagram Link" height="25px" width="25px"></a></div>
-            <p class="footer"><img src="images/copyrightWhite.png" alt="Copyright" height="18px" width="18px"> 2024 Hope Assembly of God</p>
-        </footer>
+    <footer>
+        <div class="footerLine"></div>
+        <br>
+        <div class="socialIcons">
+            <a href="https://www.facebook.com/groups/552069538189681/" class="socialSpace">
+                <img src="images/facebookIconOffWhite.png" alt="Facebook Icon Link" class="fbImgClass" id="fbImg" onmouseover="hoverColorFB() " onmouseout="hoverColorFB()" height="25px" width="25px">
+            </a> 
+            <a href="https://www.youtube.com/@HopeColfax" class="socialSpace">
+                <img src="images/youtubeIconOffWhite.png" alt="YouTube Icon Link" class="ytImgClass" id="ytImg" onmouseover="hoverColorYT() " onmouseout="hoverColorYT()" height="25px" width="25px">
+            </a>
+            <a href="https://www.instagram.com/churchishappening/" class="socialSpace">
+                <img src="images/instagramIconOffWhite.png" alt="Instagram Icon Link" class="igImgClass" id="igImg" onmouseover="hoverColorIG() " onmouseout="hoverColorIG()" height="25px" width="25px">
+            </a>
+        </div>
+        <p class="footer"><img src="images/copyrightIconOffWhite.png" alt="Copyright Icon" height="17px" width="17px">2024 Hope Assembly of God</p>
+        <br>
+    </footer>
 </body>
 </html>
