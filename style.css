@@ -25,7 +25,7 @@ body {
 
 .navbar-expand-lg .navbar-nav .nav-link {
     color: #F9EBE0;
-    font-size: 23px;
+    font-size: 18px;
     background-color: #001A23;
 }
 
@@ -55,6 +55,10 @@ body {
 
 .navbar-toggler {
     background-color: #F9EBE0;
+}
+
+.loginIcon {
+    max-width: 10%;
 }
 
 .sr-only {
@@ -215,4 +219,15 @@ h4 {
 .devoBox {
     border: 2px solid #001A23;
     padding: 4px;
+}
+
+.backgroundError {
+    background-color: white;
+}
+
+.fourOhFourImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
