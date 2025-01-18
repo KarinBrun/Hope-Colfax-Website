@@ -1,3 +1,5 @@
+let today = new Date();
+
 (function(){
     emailjs.init({
         publicKey: '1mmCs7XGffPMoDo1m',

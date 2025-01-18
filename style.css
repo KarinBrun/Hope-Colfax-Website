@@ -41,6 +41,14 @@ body {
     background-color: #001A23;
 }
 
+#donate {
+    color: #23CE6B;
+}
+
+#donate:hover {
+    color: #71B48D;
+}
+
 .navbar-expand-lg .navbar-nav .nav-link:visited {
     color: #F9EBE0;
 }
